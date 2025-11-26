@@ -24,3 +24,23 @@ div.fixed {
 body {
   height: 200vh;
 }
+div.relative2 {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid green;
+}
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: -1;
+  width: 200px;
+  height: 100px;
+  border: 3px solid red;
+}
+div.sticky {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 128, 0, 0);
+  border: 2px solid #4CAF50;
+}
